@@ -6,8 +6,6 @@ Ce projet utilise un réseau de CNN basé sur VGG16 pour classifier des images d
 
 Le dataset Malimg peut être téléchargé à partir du lien suivant : [MalImg dataset](https://figshare.com/articles/dataset/MalImg_dataset_zip/24189882). Une fois téléchargé, les images doivent être organisées dans des sous-répertoires représentant les différentes classes de malware.
 
-### Méthodologie
-
 - **Chargement des Images :**
   - Les images sont chargées à partir des répertoires de classes, redimensionnées à 32x32 pixels et converties en tableaux numériques.
   
@@ -29,7 +27,7 @@ Le dataset Malimg peut être téléchargé à partir du lien suivant : [MalImg d
 ### Exécution
 
 1. **Préparer les données :**
-   - Téléchargez et extrayez le dataset Malimg [MalImg dataset](https://figshare.com/articles/dataset/MalImg_dataset_zip/24189882).
+   - Téléchargez et extrayez le dataset Malimg https://figshare.com/articles/dataset/MalImg_dataset_zip/24189882.
    - Organisez les images dans les répertoires de formation et de validation comme suit :
      - `dataset_9010/malimg_dataset/train` pour l'entraînement.
      - `dataset_9010/malimg_dataset/validation` pour la validation.
